@@ -1,9 +1,13 @@
-import Spline from '@splinetool/react-spline';
+import {Game} from './screens/Game/Game';
+
+// react router hooks
+
+import {useNavigate} from 'react-router';
 
 export default function App() {
   return (
     <div style={{ height: 1000 }}>
-      <Spline scene="https://prod.spline.design/txymPli3a6dPPfTW/scene.splinecode" />
+      <Game />
     </div>
   );
 }
