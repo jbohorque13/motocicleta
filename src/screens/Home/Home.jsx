@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Root () {
+export default function Home () {
   
   const handleClick = React.useCallback(() => {
     console.log('log');
@@ -9,7 +9,7 @@ export default function Root () {
 
   return (
     <>
-      <h1>Bienvenido</h1>
+      <h1 className='title'>Bienvenido</h1>
       <div className="main">
         <button onClick={() => handleClick()}>
           <p>

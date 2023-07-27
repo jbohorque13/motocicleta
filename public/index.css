@@ -6,6 +6,11 @@ html, body {
   width: 100%;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/Jolly_Lodger/JollyLodger-Regular.ttf);
+}
+
 #root {
   display: grid;
   height: 100%;
@@ -24,8 +29,36 @@ html, body {
   width: 160px;
   height: 60px;
   margin: 0 20px;
+  border-radius: 12px;
+  border-color: white;
+  border-style: solid;
+  stroke-width: 1px;
+  stroke: #CFBEBE;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.main button:hover {
+  background-color: #aa92b2;
+}
+
+.main button:active {
+  background-color: #0a010e;
 }
 
 .main button p {
+  color: #FFF;
+  font-family: myFirstFont;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.title {
+  font-family: myFirstFont;
+  text-align: center;
   color: white;
+  font-size: 60px;
 }
