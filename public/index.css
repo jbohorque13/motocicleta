@@ -1,0 +1,31 @@
+html, body {
+  background-image: url(img/image-game.png);
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.main button {
+  background-color: #836b8a;
+  width: 160px;
+  height: 60px;
+  margin: 0 20px;
+}
+
+.main button p {
+  color: white;
+}

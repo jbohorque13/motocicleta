@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Root from './routes/root';
+
 import {
   RouterProvider,
   createBrowserRouter
@@ -11,6 +13,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const routes = createBrowserRouter([
   {
     path: '/',
+    element: <Root />
+  },
+  {
+    path: '/game',
     element: <App />
   }
 ])
